@@ -1,5 +1,3 @@
-import { add } from 'pnpm-test-sdfjsf'
-
-const v = add(10)
-
-console.log(v)
+export const isEven = (v) => {
+  return v % 2 === 0
+}

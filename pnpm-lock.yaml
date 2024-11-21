@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      pnpm-test-sdfjsf:
-        specifier: ^1.0.0
-        version: 1.0.0
     devDependencies:
       rollup:
         specifier: ^4.27.3
@@ -116,9 +112,6 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  pnpm-test-sdfjsf@1.0.0:
-    resolution: {integrity: sha512-hcTX1UUeKHkqNAlFgVZ9OUcyvY2RlAchPSmOXX12FG/Ato9/Y6m/bLbUkrjb0A5gvAn5QAplN1dkVy/SPJZw7A==}
-
   rollup@4.27.3:
     resolution: {integrity: sha512-SLsCOnlmGt9VoZ9Ek8yBK8tAdmPHeppkw+Xa7yDlCEhDTvwYei03JlWo1fdc7YTfLZ4tD8riJCUyAgTbszk1fQ==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -184,8 +177,6 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
-
-  pnpm-test-sdfjsf@1.0.0: {}
 
   rollup@4.27.3:
     dependencies:

@@ -6,7 +6,7 @@
     "build": "rollup -c",
     "add": "pnpm changeset add",
     "version": "pnpm changeset version",
-    "publish": "changeset publish"
+    "publish": "changeset publish -r"
   },
   "type": "module",
   "keywords": [],

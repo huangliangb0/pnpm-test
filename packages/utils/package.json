@@ -1,0 +1,16 @@
+{
+  "name": "pnpm-test-sdfjsf",
+  "version": "1.0.4",
+  "description": "test",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "bo",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^4.27.3"
+  }
+}

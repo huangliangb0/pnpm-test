@@ -1,10 +1,11 @@
 {
-  "name": "pnpm-test-sdfjsf",
-  "version": "1.0.3",
+  "name": "pnpm-test",
   "description": "test",
-  "main": "dist/bundle.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "add": "pnpm changeset add",
+    "version": "pnpm changeset version",
+    "publish": "changeset publish"
   },
   "type": "module",
   "keywords": [],

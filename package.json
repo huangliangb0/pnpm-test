@@ -1,11 +1,12 @@
 {
   "name": "pnpm-test",
+  "version": "1.0.0",
   "description": "test",
   "scripts": {
     "build": "rollup -c",
     "add": "pnpm changeset add",
     "version": "pnpm changeset version",
-    "publish": "changeset publish -r"
+    "publish": "changeset publish"
   },
   "type": "module",
   "keywords": [],

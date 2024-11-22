@@ -11,6 +11,7 @@
   "author": "bo",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.10",
     "rollup": "^4.27.3"
   }
 }
